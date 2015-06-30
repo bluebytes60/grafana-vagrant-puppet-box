@@ -4,7 +4,8 @@ Vagrant.configure("1") do |config|
 
   config.vm.forward_port 80, 9100
   config.vm.forward_port 2003, 2003
-  config.vm.forward_port 8125, 9125, { :protocol => 'udp' }
+  config.vm.forward_port 8126, 8126
+  config.vm.forward_port 8125, 8125, { :protocol => 'udp' }
   config.vm.forward_port 9200, 9200
   config.vm.forward_port 9300, 9300
 
