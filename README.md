@@ -17,7 +17,7 @@ Debian package for statsd (github.com/etsy) included
 ## Port overview 
 * Graphite: http://localhost:9100/
 * Carbon: http://localhost:2003
-* statsd: http://localhost:9125:udp
+* statsd: http://localhost:8125:udp
 * ElasticSearch: http://localhost:9200
 * Grafana: http://localhost:9100/grafana/
  
